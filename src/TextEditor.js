@@ -67,51 +67,51 @@ function TextEditor(props) {
                     {getHeadingButtons()}
                 </div>
                 <button
-                    className="tool-item fa fa-bold"
+                    className="tool-item fas fa-bold"
                     style={toolItemStyle}
                     onClick={() => handleClick("bold")}
                 />
                 <button
-                    className="tool-item fa fa-italic"
+                    className="tool-item fas fa-italic"
                     style={toolItemStyle}
                     onClick={() => handleClick("italic")}
                 />
                 <button
-                    className="tool-item fa fa-underline"
+                    className="tool-item fas fa-underline"
                     style={toolItemStyle}
                     onClick={() => handleClick("underline")}
 
                 />
                 <button
-                    className="tool-item fa fa-link"
+                    className="tool-item fas fa-link"
                     style={toolItemStyle}
                     onClick={() => addLink()}
                 />
                 <div style={{ display: showJustify ? "" : "none" }}>
                     <button
-                        className="tool-item fa fa-align-center"
+                        className="tool-item fas fa-align-center"
                         style={toolItemStyle}
                         onClick={() => handleClick("justifyCenter")}
                     />
                     <button
-                        className="tool-item fa fa-align-left"
+                        className="tool-item fas fa-align-left"
                         style={toolItemStyle}
                         onClick={() => handleClick("justifyLeft")}
                     />
                     <button
-                        className="tool-item fa fa-align-right"
+                        className="tool-item fas fa-align-right"
                         style={toolItemStyle}
                         onClick={() => handleClick("justifyRight")}
                     />
                 </div>
                 <div style={{ display: showUndoRedo ? "" : "none" }}>
                     <button
-                        className="tool-item fa fa-undo"
+                        className="tool-item fas fa-undo"
                         style={toolItemStyle}
                         onClick={() => handleClick("undo")}
                     />
                     <button
-                        className="tool-item fa fa-repeat"
+                        className="tool-item fas fa-redo"
                         style={toolItemStyle}
                         onClick={() => handleClick("redo")}
                     />
