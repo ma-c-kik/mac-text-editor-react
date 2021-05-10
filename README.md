@@ -6,6 +6,9 @@ All the buttons and textfield are fully customizable with minimal styles preappl
 
 The buttons can be removed as per user needs.
 
+* [Demo Project](https://github.com/jash139/text-editor-demo)
+* [Demo Website](https://text-editor-react.netlify.app)
+
 ## Installation and Setup
 
 * Install text-editor-react
