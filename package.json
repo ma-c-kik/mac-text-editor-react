@@ -15,11 +15,14 @@
     "url": "https://github.com/jash139/text-editor-react"
   },
   "keywords": [
+    "text editor",
+    "react text editor",
     "react",
     "text",
     "editor",
     "text-editor",
-    "react-text-editor"
+    "react-text-editor",
+    "text-editor-react"
   ],
   "peerDependencies": {
     "prop-types": "^15.6.0",

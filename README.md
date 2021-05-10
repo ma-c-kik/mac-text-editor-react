@@ -1,10 +1,19 @@
+# text-editor-react
 
-## Installation
+A text editor for react with parser to save content to database and render using provided function. The package provides options for bold, italics, underline, add link, justify content, undo, redo and 6 headings. 
 
+All the buttons and textfield are fully customizable with minimal styles preapplied to get you started.
+
+The buttons can be removed as per user needs.
+
+## Installation and Setup
+
+* Install text-editor-react
 ```bash
 npm install text-editor-react
 ```
-Include fontawesome cdn in your html for icons to work
+
+* Include fontawesome cdn in your html for icons to work
 [https://fontawesome.com/](https://fontawesome.com/)
 
 ## Usage
@@ -19,7 +28,7 @@ function MyComponent() {
 
     return (
         <TextEditor
-        id={id}
+        id={id}        //  required
         />
     );
 }
@@ -51,7 +60,7 @@ function MyComponent() {
 }
 ```
 
-### How to display content saved in database?
+### How to render content saved in database?
 
 ```jsx
 import React, { useEffect } from "react";
