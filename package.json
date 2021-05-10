@@ -1,6 +1,6 @@
 {
   "name": "text-editor-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react text editor with parser to add and retrieve content from database. The package provides options for bold, italics, underline, add link, justify content, undo, redo and 6 headings.",
   "main": "./lib/TextEditor.js",
   "repository": {
