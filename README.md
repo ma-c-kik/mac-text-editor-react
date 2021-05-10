@@ -28,7 +28,7 @@ function MyComponent() {
 
     return (
         <TextEditor
-        id={id}        //  required
+            id={id}        //  required
         />
     );
 }
@@ -52,7 +52,7 @@ function MyComponent() {
     return (
         <div>
             <TextEditor
-            id={id}
+                id={id}
             />
             <button onClick={saveContent}>Save</button>
         </div>
@@ -82,6 +82,39 @@ function MyComponent() {
             <div id={targetDiv}></div>
             <button onClick={addContent}>Add Content</button>
         </React.Fragment>
+    );
+}
+```
+
+### Props
+
+| Name          | Type          | Default       | Description   |
+| ------------- | ------------- | ------------- | ------------- |
+| showHeadings  | boolean       | true          | Visibility of the heading buttons  |
+| showUndoRedo  | boolean       | true          | Visibility of the undo and redo buttons |
+| showJustify   | boolean       | true          | Visibility of the justify content buttons. Center, left and right aligned |
+| toolbarStyle  | object        |               | Add styling to the toolbar div |
+| toolItemStyle | object        |               | Add styling to the buttons in toolbar div |
+| editorStyle   | object        |               | Add styling to the editor textfield |
+
+#### Props example
+
+```jsx
+import React from "react";
+import { TextEditor } from "text-editor-react";
+
+function MyComponent() {
+    const id = "my-unique-id";
+
+    return (
+        <TextEditor
+            id={id}
+            showJustify={false} 
+            toolItemStyle={{
+                color: "red",
+                fontSize: "1.2rem"
+            }}
+        />
     );
 }
 ```
