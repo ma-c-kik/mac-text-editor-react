@@ -88,14 +88,15 @@ function MyComponent() {
 
 ### Props
 
-| Name          | Type          | Default       | Description   |
-| ------------- | ------------- | ------------- | ------------- |
-| showHeadings  | boolean       | true          | Visibility of the heading buttons  |
-| showUndoRedo  | boolean       | true          | Visibility of the undo and redo buttons |
-| showJustify   | boolean       | true          | Visibility of the justify content buttons. Center, left and right aligned |
-| toolbarStyle  | object        |               | Add styling to the toolbar div |
-| toolItemStyle | object        |               | Add styling to the buttons in toolbar div |
-| editorStyle   | object        |               | Add styling to the editor textfield |
+| Name            | Type          | Default           | Description                                                               |
+| --------------- | ------------- | ----------------- | ------------------------------------------------------------------------- |
+| `id` (required) | string        | react-text-editor | An id unique to your application                                          |
+| `showHeadings`  | boolean       | true              | Visibility of the heading buttons                                         |
+| `showUndoRedo`  | boolean       | true              | Visibility of the undo and redo buttons                                   |
+| `showJustify`   | boolean       | true              | Visibility of the justify content buttons. Center, left and right aligned |
+| `toolbarStyle`  | object        |                   | Add styling to the toolbar div                                            |
+| `toolItemStyle` | object        |                   | Add styling to the buttons in toolbar div                                 |
+| `editorStyle`   | object        |                   | Add styling to the editor textfield                                       |
 
 #### Props example
 
