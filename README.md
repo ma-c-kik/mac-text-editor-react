@@ -13,7 +13,7 @@ The buttons can be removed as per user needs.
 npm install text-editor-react
 ```
 
-* Include fontawesome cdn in your html for icons to work
+* Include fontawesome cdn in your html for icons to work (version 5)
 [https://fontawesome.com/](https://fontawesome.com/)
 
 ## Usage
