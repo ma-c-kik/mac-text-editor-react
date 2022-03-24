@@ -1,18 +1,18 @@
 {
-  "name": "text-editor-react",
+  "name": "mac-text-editor-react",
   "version": "1.0.3",
   "description": "A react text editor with parser to add and retrieve content from database. The package provides options for bold, italics, underline, add link, justify content, undo, redo and 6 headings.",
   "main": "./lib/TextEditor.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jash139/text-editor-react"
+    "url": "https://github.com/ma-c-kik/mac-text-editor-react"
   },
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/jash139/text-editor-react"
+    "url": "https://github.com/ma-c-kik/mac-text-editor-react"
   },
   "keywords": [
     "text editor",
@@ -22,7 +22,7 @@
     "editor",
     "text-editor",
     "react-text-editor",
-    "text-editor-react"
+    "mac-text-editor-react"
   ],
   "peerDependencies": {
     "prop-types": "^15.6.0",
