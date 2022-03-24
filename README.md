@@ -1,4 +1,4 @@
-# text-editor-react
+# mac-text-editor-react
 
 A text editor for react with parser to save content to database and render using provided function. The package provides options for bold, italics, underline, add link, justify content, undo, redo and 6 headings. 
 
@@ -6,14 +6,11 @@ All the buttons and textfield are fully customizable with minimal styles preappl
 
 The buttons can be removed as per user needs.
 
-* [Demo Project](https://github.com/jash139/text-editor-demo)
-* [Demo Website](https://text-editor-react.netlify.app)
-
 ## Installation and Setup
 
-* Install text-editor-react
+* Install mac-text-editor-react
 ```bash
-npm install text-editor-react
+npm install mac-text-editor-react
 ```
 
 * Include fontawesome cdn in your html for icons to work (version 5)
@@ -24,7 +21,7 @@ npm install text-editor-react
 ### Simple Example
 ```jsx
 import React from "react";
-import { TextEditor } from "text-editor-react";
+import { TextEditor } from "mac-text-editor-react";
 
 function MyComponent() {
     const id = "my-unique-id";
@@ -41,7 +38,7 @@ function MyComponent() {
 
 ```jsx
 import React from "react";
-import { TextEditor, getInnerHtml } from "text-editor-react";
+import { TextEditor, getInnerHtml } from "mac-text-editor-react";
 
 function MyComponent() {
     const id = "my-unique-id";
@@ -67,7 +64,7 @@ function MyComponent() {
 
 ```jsx
 import React, { useEffect } from "react";
-import { addContentTo } from "text-editor-react";
+import { addContentTo } from "mac-text-editor-react";
 
 function MyComponent() {
     const targetDiv = "target-div";
@@ -105,7 +102,7 @@ function MyComponent() {
 
 ```jsx
 import React from "react";
-import { TextEditor } from "text-editor-react";
+import { TextEditor } from "mac-text-editor-react";
 
 function MyComponent() {
     const id = "my-unique-id";
