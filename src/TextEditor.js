@@ -5,12 +5,14 @@ import "./TextEditor.css";
 
 function TextEditor(props) {
     const id = props.id;
+    const content = props.content;
     const toolbarStyle = props.toolbarStyle;
     const toolItemStyle = props.toolItemStyle;
     const showHeadings = props.showHeadings;
     const showJustify = props.showJustify;
     const showUndoRedo = props.showUndoRedo;
     const editorStyle = props.editorStyle;
+    const textChange = props.onChange;
 
     const addLink = () => {
         const url = prompt("Add link:");
@@ -123,8 +125,9 @@ function TextEditor(props) {
                 contentEditable={true}
                 suppressContentEditableWarning={true}
                 style={editorStyle}
+                onChange={textChange}
             >
-                <p>Content</p>
+                {content}
             </div>
         </React.Fragment>
     );
@@ -137,7 +140,8 @@ const propTypes = {
     showJustify: PropTypes.bool,
     toolbarStyle: PropTypes.object,
     toolItemStyle: PropTypes.object,
-    editorStyle: PropTypes.object
+    editorStyle: PropTypes.object,
+    content: PropTypes.string
 };
 
 const defaultProps = {
@@ -147,7 +151,8 @@ const defaultProps = {
     showJustify: true,
     toolbarStyle: {},
     toolItemStyle: {},
-    editorStyle: {}
+    editorStyle: {},
+    content: ''
 };
 
 TextEditor.propTypes = propTypes;
